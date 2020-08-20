@@ -12,6 +12,7 @@ function App() {
       <h2>nice one</h2>
       <h2> i am vik</h2>
       <h2>i am vik second</h2>
+      <h2>i am remote</h2>
     </div>
   );
 }
