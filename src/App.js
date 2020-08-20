@@ -9,6 +9,7 @@ function App() {
       <h2>this is a new update.</h2>
       <h2>I am here again ,haha..</h2>
       <h2>hello there</h2>
+      <h2>nice one</h2>
     </div>
   );
 }
