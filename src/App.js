@@ -7,9 +7,12 @@ function App() {
     <div className="App">
       <div className="start">
         <h1>Guide to git</h1>
+        <p>by <a href="https://github.com/vikashsurin">vikashsurin</a></p>
         <p></p>
         <img />
       </div>
+
+      7634081522//149//airtel
       --------xx-------
       <div className="init">
         <h1>initialize project</h1>
