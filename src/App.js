@@ -12,7 +12,6 @@ function App() {
         <img />
       </div>
 
-      7634081522//149//airtel
       --------xx-------
       <div className="init">
         <h1>initialize project</h1>
