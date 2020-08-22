@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/gitL/static/css/main.7a5d93f2.chunk.css",
+    "main.css": "/gitL/static/css/main.fbda1299.chunk.css",
     "main.js": "/gitL/static/js/main.b23164fd.chunk.js",
     "main.js.map": "/gitL/static/js/main.b23164fd.chunk.js.map",
     "runtime-main.js": "/gitL/static/js/runtime-main.ee592504.js",
@@ -8,15 +8,15 @@
     "static/js/2.b56a8f18.chunk.js": "/gitL/static/js/2.b56a8f18.chunk.js",
     "static/js/2.b56a8f18.chunk.js.map": "/gitL/static/js/2.b56a8f18.chunk.js.map",
     "index.html": "/gitL/index.html",
-    "precache-manifest.cca07198151fe3e290b7f89da9971e00.js": "/gitL/precache-manifest.cca07198151fe3e290b7f89da9971e00.js",
+    "precache-manifest.754836fd2eb78f5086cdd6682e9f9b31.js": "/gitL/precache-manifest.754836fd2eb78f5086cdd6682e9f9b31.js",
     "service-worker.js": "/gitL/service-worker.js",
-    "static/css/main.7a5d93f2.chunk.css.map": "/gitL/static/css/main.7a5d93f2.chunk.css.map",
+    "static/css/main.fbda1299.chunk.css.map": "/gitL/static/css/main.fbda1299.chunk.css.map",
     "static/js/2.b56a8f18.chunk.js.LICENSE.txt": "/gitL/static/js/2.b56a8f18.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.ee592504.js",
     "static/js/2.b56a8f18.chunk.js",
-    "static/css/main.7a5d93f2.chunk.css",
+    "static/css/main.fbda1299.chunk.css",
     "static/js/main.b23164fd.chunk.js"
   ]
 }
