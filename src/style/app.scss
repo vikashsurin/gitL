@@ -31,12 +31,16 @@ small {
   border-radius: 20px;
 }
 #branch-story {
+  @media (max-width:900px){
+    margin: 1px;
+  }
   margin: 20px;
   border: 10px solid;
   border-width: 5px;
   border-image: linear-gradient(45deg, #ff0080, #ff03f2,rgb(255, 217, 0)) 1;
   border-image: -webkit-linear-gradient(to left, #ff03f2,rgb(255, 217, 0), #ff0080) 1;
   -webkit-border-image: linear-gradient(45deg, #ff0080, #ff03f2,rgb(255, 217, 0)) 1;
+
   -moz-border-image: linear-gradient(45deg, #ff0080, #ff03f2,rgb(255, 217, 0)) 1;
 
   h2 {
