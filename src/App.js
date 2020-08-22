@@ -107,7 +107,7 @@ function App() {
       <div id="branch-story">
         <h2>branch story</h2>
         <div id="branch-img">
-          <img src="https://images.pexels.com/photos/5158869/pexels-photo-5158869.png?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" />
+          <img src="https://images.pexels.com/photos/5158869/pexels-photo-5158869.png?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" alt="image"/>
           <p className="left">
             Have a look at the diagram and try to understand step by step.
             Master is the default branch and main branch of any github repo.
@@ -139,7 +139,7 @@ function App() {
             <br />
             <small>for ex:- git checkout branchX</small>
           </div>
-          <img src="https://images.pexels.com/photos/5158367/pexels-photo-5158367.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" />
+          <img src="https://images.pexels.com/photos/5158367/pexels-photo-5158367.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="image"/>
           <img
             src="https://images.pexels.com/photos/5158375/pexels-photo-5158375.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
             alt="image"
