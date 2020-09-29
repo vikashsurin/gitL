@@ -125,12 +125,12 @@ function App() {
               git branch &#10094;<b>branchname</b>&#10095;
             </code>
             <br />
-            <small>a new branch is created with</small>
+            <small>a new branch is created, just a copy of the master branch. </small>
 
             <h5>---List all the branches---</h5>
             <code>git branch</code>
             <br />
-            <small>*master, branchX ,branchY</small>
+            <small> * denotes the current branch you are in  ex:- *master, branchX ,branchY</small>
 
             <h5>---switch to a different branch---</h5>
             <code>
@@ -138,6 +138,7 @@ function App() {
             </code>
             <br />
             <small>for ex:- git checkout branchX</small>
+            <p>now we are in the desired branch, and we can modify the files.</p>
           </div>
           <img src="https://images.pexels.com/photos/5158367/pexels-photo-5158367.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="image"/>
           <img
@@ -146,9 +147,10 @@ function App() {
           />
           <div>
             <p className="left">
-              A branch is only available to you, unless you push it to repo so
-              that other can access it. By now we know how to stage(add), commit
-              and push. -Let`s push..
+              now the branch is made in local repository (means our computer), its not available in the github server yet.
+              so a branch is only available to others, unless you push it to github so
+              that other can access it. By now we know how to 1.stage(add) 2.commit
+              and finally 3.push. After staging and commiting -Let`s push..
             </p>
 
             <code>
@@ -160,7 +162,7 @@ function App() {
             <h4>Let`s see how to delete a branch</h4>
 
             <p className="left">
-              When the purpose of the branch is met, it can be deleted.
+              When the purpose of the branch is met, it can be deleted or kept. Let`s see how to delete.
             </p>
             <h5>---switch to master---</h5>
             <code>git checkout master</code>
@@ -169,15 +171,33 @@ function App() {
               <s>---now delete branch---</s>
               <br />
             </h5>
+            <p>
+              There are a couple of points worth mentioning  while performing a delete action .
+              As we know there are two copies of the repository first is in local ( in you computer ,where we have been working and editing) and the second is in the remote (in the github server ).
+              so a branch have to be individually deleted from  both the location .
+
+
+
+            </p>
             <code>
               git branch -d &#10094;<b>branchname</b>&#10095;
             </code>
             <br />
             <small>
+              this command deletes the branch in local.
               in order to delete a branch you must switch to other branch first
               <br />
               <icode>-d</icode>
               stands for delete
+            </small>
+            <br/>
+            <code>
+              git push origin --delete  &#10094;<b>branchname</b>&#10095;
+            </code>
+            <br />
+            <small>
+              this command deletes the branch in remote.
+              <br />
             </small>
             <p className="left">
               But it does not end here, there are more concepts like{" "}
